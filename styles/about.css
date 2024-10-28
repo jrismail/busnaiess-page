@@ -1,6 +1,7 @@
 /* About Hero Section Styles */
 .about-hero {
-    background-image: url('/placeholder.svg?height=400&width=1200');
+    margin-top: 40px;
+    background-image: url('../image/banner.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -9,11 +10,14 @@
 }
 
 .about-hero h2 {
+    margin-top: 90px;
+    color: black;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 .about-hero p {
+    color: #333;
     font-size: 18px;
 }
 

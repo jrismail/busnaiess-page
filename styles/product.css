@@ -1,6 +1,6 @@
 /* Products Hero Section Styles */
 .products-hero {
-    background-image: url('/placeholder.svg?height=400&width=1200');
+    background-image: url('../image/banner.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -9,11 +9,14 @@
 }
 
 .products-hero h2 {
+    color: black;
+    margin-top: 90px;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 .products-hero p {
+    color: #333;
     font-size: 18px;
 }
 
@@ -171,7 +174,7 @@
 @media (max-width: 768px) {
     .category-grid,
     .product-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(300px, 2fr);
     }
 
     .product-card {
